@@ -1,0 +1,74 @@
+body{
+    font-family: raleway;
+    text-align: center;
+}
+
+#contain{
+    margin: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #333333;
+    background-color: #EEEEEE;
+    width: 500px;
+    min-height: 450px;
+}
+
+h1{
+    color: #000000;
+    margin: 10px;
+    padding: 5px;
+}
+
+#divAdd{
+    margin: 20px;
+}
+
+#myInput{
+    height: 30px;
+    width: 200px;
+}
+
+#btnAdd{
+    height: 30px;
+    width: 80px;
+    background-color: #E5E5E5;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+#btnAdd:hover{
+    color:#DFDCE3 ;
+    background-color:#062F4F ;
+}
+
+#divList{
+    margin: 20px;
+}
+
+li{
+    size: 35px;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: aquamarine;
+    list-style: none;
+    margin: 0px;
+    font-size: 18px;
+    text-align: left;
+    
+}
+
+li:hover{
+    background-color: #DFDCE3;
+}
+
+.checked{
+    text-decoration: line-through;
+}
+
+.close{
+    background-color: #AC3232;
+    margin-right: 0px;
+    color: #FFFFFF;
+    float: right;
+}
